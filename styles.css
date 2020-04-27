@@ -1,0 +1,28 @@
+body {
+    width: 50%;
+    margin: 0px auto;
+}
+header{
+    background-color: black; color: 
+    antiquewhite; text-align: center; 
+    padding: 5px;>
+}
+nav{
+    text-align: center; 
+    line-height:  30px; 
+    background-color: antiquewhite; 
+    height: 
+300px; width: 100px; float: left; padding: 5px;
+
+}
+section{
+    width: 350px;float: left; 
+    padding: 10px; 
+    margin: 0px auto;
+}
+
+footer{
+    background-color: black; color: blanchedalmond; text-align: center; 
+padding: 5px; clear: both;
+   
+}
