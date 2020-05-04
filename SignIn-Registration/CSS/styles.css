@@ -19,16 +19,11 @@
     color: black;
     padding: 10px;
     }
-    
-#formData2{
-    margin: 0 auto;
-    text-align: center;
-    color: black;
-    padding: 10px;
-    }
 
-.label {
+.registrationlabel {
     text-align: center;
+    margin-left: 21px;
+    
     }
 
 #age{
@@ -36,4 +31,8 @@
     }
 #color-position{
     width: 30px;
+}
+.signInlabel{
+    text-align: center;
+
 }
