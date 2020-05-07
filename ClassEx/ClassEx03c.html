@@ -5,42 +5,38 @@
 
     <style>
         div{
-            margin: 0 auto;
-            width: 75%;
+            margin: 0px auto;
         }
         p{
-            margin: 0 auto;
-            text-align: center;
+            margin: 0px auto;
         }
         .center{
-            margin: 10px;
-            height: 50px;
+            margin-top: 25px;
+            height: 90px;
             text-align: center;
         }
-        header{
-            background-color: lightblue;
+        header, nav, footer{
+            background-color: blanchedalmond;
             text-align: center;
-            color: coral;
+            color: coral ;
         }
         main{
             margin: auto;
             height: 260px; 
             background-color: grey;
             overflow: hidden;
-        }
-        nav, footer{
-            background-color: blanchedalmond;
+        } 
+        section.left{
             text-align: center;
-            color: coral ;
-        }
-        section{
-            text-align: center;
-            height: 250px;
-            background-color: olive;
+            height: 260px;
+            background-color:cornflowerblue;
             float: left;
             width: 200px;
         }
-
+        ul{
+            margin-left: -40px;
+            list-style: none;
+        }
     </style>
 
 </head>
@@ -61,44 +57,57 @@
                 <a href="#" title="Resource"> <button>RESOURCES</button></a>
 
             </nav>
+        <hr>
         </header>
 
           <!-- Navigation Bar End  -->
 
           <!-- Link Section Start-->
           <main>
-                <Section>
+                <Section class="left"><br>
                     <p> LINKS </p>
                         <hr>
                     <ul>
                         <li>
-                        <a href="#" title="Link 01"> <button> LINK 01</button></a>
+                        <a href="#" title="Link 01"> <button> A01</button></a>
                         </li>
 
                         <li>
-                        <a href="#" title="Link 02"> <button>LINK 02</button></a>
+                        <a href="#" title="Link 02"> <button> A02</button></a>
                         </li>
 
                         <li>
-                        <a href="#" title="Link 03"> <button> LINK 03</button></a>
+                        <a href="#" title="Link 03"> <button> A03</button></a>
                         </li>
+
+                        <li>
+                        <a href="#" title="Link 04"> <button> A04</button></a>
+                        </li>
+
+                        <li>
+                        <a href="#" title="Link 05"> <button> A05</button></a>
+                        </li>
+                            
+                        <li>
+                        <a href="#" title="Link 06"> <button> A06</button></a>
+                        </li>
+        
 
                     </ul>
                 </Section>
 
-                <!--       -->
-
-
-                <!--       -->
+                <!--  Side Bar Start  -->
 
                 <Section class="center">
                     <p id="linkDetail"> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aliquid earum cum eius cupiditate tenetur, soluta delectus vitae nisi odit, possimus architecto itaque. Laboriosam fugit autem praesentium, commodi facere nostrum adipisci!</p>
                 </Section>
 
+                <!-- side bar ends   -->
+
             </main>
     
                 <footer> 
-                    <p> Copywrite $copy; ITC-111 </p>
+                    <p> Copywrite $copy; ITC-111 Bela</p>
 
                 </footer>
     </div>
