@@ -1,6 +1,6 @@
 // Switch statement - gives multiple outcomes based on the value condition
 
-var seasons = 'spring';
+var seasons = 'green';
 
 switch(seasons) {
     case 'summer':
