@@ -78,7 +78,7 @@
                 // within a document based on its id. The div with the id of 'divLeft' has these new
                 // links placed in it's innerHTML. After being created 'onclick' each link also calls
                 // a function when their 'onclick' event attribute is triggered attribute
-                document.getElementById('divLeft').innerHTML = '<a href="#" onclick="changeDivRightText("link1")">Link 1a</a><br><a href="#" onclick="changeDivRightText("link2")">Link 1b</a>';
+                document.getElementById('divLeft').innerHTML = '<a href="#" onclick="changeDivRightText("link1")">clsEx01</a><br><a href="#" onclick="changeDivRightText("link2")">clEx02</a>';
                 // The innerHTML of the div to the right is also changed
                 document.getElementById('divRight').innerHTML = 'Content for the "Link 1" link.';
                 // Any of an elements properties can be changed this way. Here the color is changed.
@@ -114,45 +114,43 @@
                     overall placing of the elements on the page.
                     -->
                     <div id='outerDiv'>
-                    
-
-                    <!--
-                    This div could easly have been a section or aside tag
-                    as it is being used to layout other elements of the page.
-                    -->
-                    <div>
-                    <!--
-                    Here we have an un-ordered list to group our links
-                    as indivitual line items horizontally.
-                    -->
-                    <ul>
-                    <li>
-                    <!--
-                    This link is calling a function that is in our script tag.
-                    'onclick' is an event attribute. All tags can use the onclick
-                    attriute.
-                    -->
-                    <a href="#" onclick='changeLinkText()'>Home</a>
-                    </li>
-                    <li>
-                    <a href="#" onclick='changeColor()'>Class Exercises</a>
-                    </li>
-                    </ul>
-                    </div>
-                    <!--
-                    This div could easly have been a section or aside tag
-                    as it is being used to layout other elements of the page.
-                    -->
-                    <div id='innerDivBodyLeft'>
-                    <a href='#' id='divLeft' onclick='changeDivRightText()'>Default Page Load Link</a>
-                    </div>
-                    <!--
-                    This div is lined up right next to the previous one. CSS is used to align it
-                    to the left. Div's would normaly stack as they are block elements.
-                    -->
-                    <div id='innerDivBodyRight'>
-                    <p id='divRight'>Content loaded in div on page load by default.</p>
-                    </div>
+                            <!--
+                            This div could easly have been a section or aside tag
+                            as it is being used to layout other elements of the page.
+                            -->
+                            <div>
+                                <!--
+                                Here we have an un-ordered list to group our links
+                                as indivitual line items horizontally.
+                                -->
+                                <ul>
+                                <li>
+                                <!--
+                                This link is calling a function that is in our script tag.
+                                'onclick' is an event attribute. All tags can use the onclick
+                                attriute.
+                                -->
+                                <a href="#" onclick='changeLinkText()'>Class Exercise</a>
+                                </li>
+                                <li>
+                                <a href="#" onclick='changeColor()'>Assignments</a>
+                                </li>
+                                </ul>
+                            </div>
+                            <!--
+                            This div could easly have been a section or aside tag
+                            as it is being used to layout other elements of the page.
+                            -->
+                            <div id='innerDivBodyLeft'>
+                                <a href='#' id='divLeft' onclick='changeDivRightText()'>Default Page Load Link</a>
+                            </div>
+                            <!--
+                            This div is lined up right next to the previous one. CSS is used to align it
+                            to the left. Div's would normaly stack as they are block elements.
+                            -->
+                            <div id='innerDivBodyRight'>
+                            <p id='divRight'>Content loaded in div on page load by default.</p>
+                            </div>
                     </div>
  
 
