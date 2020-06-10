@@ -7,6 +7,7 @@
     overflow: hidden;
 }
 .row {
+    background-color: black;
     margin: 0 2px auto;
     height: max-content;
     overflow: hidden;
@@ -29,6 +30,7 @@
 }
 button {
     background-color: white;
+    border-radius: 30px 30px 30px 30px;
     font-size: x-large;
     width: 70px;
     height: 70px;
